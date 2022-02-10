@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://wallpaperaccess.com/full/187161.jpg);
+    background-size: cover;
+}
+.bh1{
+    margin-top: 8vh;
+    height: 7.5%;
+    text-align: center;
+    
+    font-family: 'Abel', sans-serif;
+    padding: 0.5%;
+    background-color:black;
+    color: blanchedalmond;
+    border-radius: 6px;
+}
+.p{
+    margin: 4px 0px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color: #d2fd7e;
+    font-weight: 900;
+    font-size: 34px;
+}
+.div1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto 10.5vh;
+}
+.subdiv1{
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.img1{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 8px;
+}
+.span{
+    text-align: center;
+    padding-top: 45%;
+    height: 22vh;
+}
+.i1{
+       height: 4vh;
+       width: 5vw;
+       
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+button{
+    border: none;
+}
+.b{
+    padding: 0;
+    cursor: pointer;
+}
+.c{
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 4px 7px;
+    background: none;
+    margin-top: 6vh;
+}
+.ca{
+    text-decoration: none;
+    color: aqua;
+    font-size: 13px;
+    font-weight: 600;
+}
+button.c:hover{
+    height: 7vh;
+}
+#c{
+ margin-top: 12vh;
+}
+.a1{
+    height: 30vh;
+    width: 15vw;
+    border-radius: 8px;
+}
+button.b:hover{
+    height: 32vh;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Mochiy+Pop+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.ressupdiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74vw;
+    height: 75vh;
+    border-radius: 10px;
+    margin: 12.5vh 13vw;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    padding-top: 7vh;
+}
+.resdiv1{
+    
+    width:37vw;
+    height: 75vh;
+    text-align: center;
+    background-color: #f6f5f7;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.resdiv2{
+    
+    width:37vw;
+    height: 75vh;
+    text-align: center;
+    background-color: #f6f5f7;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.resh4{
+    margin-top: 27vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.resh3{
+    margin-top: 5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+.resi1{
+     height: 75vh;
+     border-top-left-radius: 8px;
+     border-bottom-left-radius: 8px;
+}
+input{
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    width: 15vw;
+    height: 20px;
+}
+.resform{
+    margin-top: 10px;
+}
+.resb1{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: #e4eaff;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.frgt_form_close{
+    position: relative;
+    float: right;
+    top: 10px;
+    right: 180px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 5px;
+    border-radius: 10px;
+}

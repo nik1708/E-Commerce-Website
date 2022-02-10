@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Mochiy+Pop+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.cbody{
+    background: url(../images/backgrounds/query-bg.jpg);
+    background-size: cover;
+}
+.ch2{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+}
+.ch3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    display: inline;
+    color:#eee;
+}
+.cp1{
+    font-family: 'Fruktur', 'cursive';
+    font-family: 'Mochiy Pop One', sans-serif;
+    color:rgb(0, 0, 0);
+}
+.box1{
+    box-shadow: 0 14px 28px rgb(0 0 0 / 40%), 0 10px 10px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 50vw;
+    background-color: rgba(0,0,0,0.5);
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px  100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    color:#eee;
+}
+.contact.contact
+{
+    max-width: 1600px;
+    text-align: center;
+}
+.fname{
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    margin-top:10px;
+    
+}
+.contactForm{
+    /*background-color:#f6f5f7;*/
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+   /* background: url(https://i.pinimg.com/originals/64/d3/a9/64d3a9af45e5095dcaa4a68e9cedaed7.jpg);*/
+    opacity: var(-10%);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+input{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 5px -10% ;
+    width: 50%;
+}
+.fb{
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;    
+    background: none;
+    color: #ffffff;
+    border: 2px solid #f6f5f7;
+}
+textarea{
+    resize: none;
+    height: 100px;
+    width: 350px;
+    padding: 10px;
+}

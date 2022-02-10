@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#f6f5f7;
+  
+}
+.super1{
+width: 100%;
+display: grid;
+grid-template-columns: 50vw 50vw;
+}
+.super{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 20vw 29vw;
+    box-sizing: border-box;
+}
+.sub1{
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    height: 35vh;
+    box-sizing: border-box;
+}
+.sub2{
+    background-color: rgb(194, 222, 229);
+    margin: 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    height: 35vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.h3{
+    margin-top: 6%;
+
+}
+.super img{
+    height: 35vh;
+}
+.sub2 p{
+    padding: 1vh;
+}
+.bh1{
+    margin-top: 50px;
+    height: 7.5%;
+    text-align: center;
+    background-color:  rgb(12, 11, 1);
+    font-family:  'Oswald', sans-serif;
+    padding: 0.5%;
+    color:rgba(255, 251, 0, 0.719);
+    border-radius: 6px;
+    width: 100;
+    box-sizing: border-box;
+}
+button.b1{
+    text-decoration: none;
+    border: none;
+    width: 15%;
+    height: 10%;
+    margin: 3%;
+    background-color: pink;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+button.b2{
+    text-decoration: none;
+    border: none;
+    width: 17%;
+    height: 10%;
+    margin: 3%;
+    background-color: pink;
+    border-radius:5px;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}

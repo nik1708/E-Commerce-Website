@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+.all_text_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.right{
+    
+    margin-left: 650px;
+    width: 100px;
+}
+.ul2{
+    display: flex;
+}
+.align_center{
+    display: flex;
+    justify-content: center;
+}
+.details{
+    padding: 10px;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0,0.2);
+    margin-bottom: 15px;
+}
+.front{
+    display: flex;
+    justify-content: center;
+}
+.about div{
+    font-size: 18px;
+}
+.about{
+    margin: auto;
+    display: grid;
+    grid-row-gap: 50px;
+    background-color: rgba(0, 0, 0,0.4);
+    width: 600px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    height: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+}
+.slider{
+    width: 100vh;
+    position: relative;
+    height: 288px;
+    margin: 2px;
+}
+
+ 
